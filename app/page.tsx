@@ -28,6 +28,7 @@ export default function Home() {
             height={85}
             alt="avatar"
             className="rounded-full bg-secondary"
+            unoptimized
           />
         </div>
         <p
