@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex animate-in flex-col gap-8">
         <div>
           <h1 className="animate-in text-3xl font-bold tracking-tight text-primary">
-            Brian Ruiz
+            Sahil
           </h1>
           <p
             className="animate-in text-secondary"
