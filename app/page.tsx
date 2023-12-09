@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 import Avatar from "@/public/avatar.png";
-import { ArrowUpRightIcon } from '@heroicons/react/20/solid';
+import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
 export default function Home() {
   return (
@@ -35,9 +35,12 @@ export default function Home() {
           className="max-w-lg animate-in text-primary"
           style={{ "--index": 2 } as React.CSSProperties}
         >
-          Hi, I&apos;m Sahil Quraishi, a full stack developer who loves building cool
-          things with code. In addition to coding, I also workout ,
-          where I focus on my mental health and personal development.
+          Hello, , I&apos;m Sahil Quraishi, a passionate full-stack developer dedicated
+          to crafting innovative solutions through code. Beyond my love for
+          coding, I prioritize my well-being by engaging in regular workouts,
+          fostering both mental resilience and personal growth. This balance
+          between technological creativity and self-care fuels my drive to excel
+          in both my professional and personal endeavors
         </p>
         <ul
           className="animated-list flex animate-in flex-col gap-2 text-secondary md:flex-row md:gap-6"
@@ -63,7 +66,6 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      </div>
-      
-  )
+    </div>
+  );
 }
