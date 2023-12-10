@@ -42,27 +42,27 @@ const page = () => {
           </div>
         </Section>
         <Section heading="Frontend" headingAlignment="left">
-          <div className="flex gap-2 ">
+          <div className="grid grid-cols-4  gap-2 ">
             {frontend.map((item) => (
-              <Badge  variant={"outline"} key={item.id} className=" ">
+              <Badge  variant={"outline"} key={item.id} className=" flex justify-center items-center pr-4 pl-4 pt-2 pb-2 font-bold ">
                 {item.tech}
               </Badge>
             ))}
           </div>
         </Section>
         <Section heading="Backend" headingAlignment="left">
-          <div className="flex gap-2 ">
+        <div className="grid grid-cols-4  gap-2 ">
             {backend.map((item) => (
-              <Badge variant={"outline"} key={item.id} className=" ">
+              <Badge  variant={"outline"} key={item.id} className=" flex justify-center items-center pr-4 pl-4 pt-2 pb-2 font-bold ">
                 {item.tech}
               </Badge>
             ))}
           </div>
         </Section>
         <Section heading="Tools" headingAlignment="left">
-          <div className="flex gap-2 ">
+        <div className="grid grid-cols-4  gap-2 ">
             {tool.map((item) => (
-              <Badge variant={"outline"} key={item.id} className=" ">
+              <Badge variant={"outline"} key={item.id} className=" flex justify-center items-center pr-4 pl-4 pt-2 pb-2 font-bold ">
                 {item.tech}
               </Badge>
             ))}
@@ -128,6 +128,8 @@ const backend = [
   { id: 3, tech: "Typescript" },
   { id: 4, tech: "Express" },
   { id: 5, tech: "JWT" },
+  { id: 6, tech: "Next Auth"},
+  { id: 7, tech: "Clerk.js"},
 ];
 const tool = [
   { id: 1, tech: "Github" },
