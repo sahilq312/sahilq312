@@ -10,3 +10,4 @@ const Gears = [
         link : "https://www.amazon.in/REDRAGON-K617-Gaming-Mechanical-Keyboard/dp/B0BHJ3TZ9F/ref=sr_1_4?crid=1LHD9C1I7448T&keywords=k617&qid=1702243918&s=computers&sprefix=k617%2Ccomputers%2C219&sr=1-4"
     }
 ]
+export {Gears}
