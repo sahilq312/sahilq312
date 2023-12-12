@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { FaGithub } from "react-icons/fa";
 
 export const metadata: Metadata = {
-  title: "Projects | Brian Ruiz",
+  title: "Projects | sahil",
   description:
     "Here are some of the projects I've worked on.",
 };
