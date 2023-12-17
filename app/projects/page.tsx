@@ -61,7 +61,7 @@ export default function Blog() {
             <div className="w-full md:w-3/5 space-y-2">
               <div>
                 <Link
-                  href={`/projects/${project.id}`}
+                  href={`/projects/${project.link}`}
                   className="text-primary font-medium hover:underline"
                 >
                   {project.title}
@@ -75,10 +75,8 @@ export default function Blog() {
                 <p className=" border rounded-md p-2" key={i}>{t}</p>)
               )}
               </div>
-              
-              
             </div>
-            <Button className=" flex" ><a href={project.link}><FaGithub/></a></Button>
+            <Button className=" flex" ><Link href={project.link}><FaGithub/></Link></Button>
           </li>
         ))}
       </ul>
