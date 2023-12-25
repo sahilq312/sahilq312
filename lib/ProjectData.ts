@@ -1,4 +1,4 @@
-import Avatar from "@/public/avatar.png"
+
 
 const projects = [
     {

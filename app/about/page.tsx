@@ -130,6 +130,8 @@ const backend = [
   { id: 5, tech: "JWT" },
   { id: 6, tech: "Next Auth"},
   { id: 7, tech: "Clerk.js"},
+  { id: 8, tech: "Prisma"},
+  { id: 9, tech: "NeonDB"},
 ];
 const tool = [
   { id: 1, tech: "Github" },
