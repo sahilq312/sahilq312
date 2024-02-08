@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm sahil</h1>
 <h3 align="center">A passionate full stack developer from India</h3>
 
-- 🔭 I’m currently working on **side projects**
+- 🔭 I’m currently working on side projects
 
-- 🌱 I’m currently learning **about cloud**
-
-- 👨‍💻 All of my projects are available at [https://sahil-io.vercel.app](https://sahil-io.vercel.app)
+- 🌱 I’m currently learning about cloud
 
 - 💬 Ask me about **react, typescript, next.js**
 
