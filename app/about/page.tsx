@@ -72,7 +72,7 @@ const page = () => {
           <div className="flex flex-col w-full gap-8">
             <p>
               Have a question or just want to chat? Feel free to{" "}
-              <Link href="mailto:contact@b-r.io" >
+              <Link href="mailto:contact@quraishisahil04@outlook.com" >
                 email me
               </Link>
               . Try finding me anywhere else at @Sahilq312
