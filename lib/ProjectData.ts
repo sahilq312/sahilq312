@@ -8,7 +8,10 @@ const projects = [
         description: "A MERN stack ecommerce app . ",
         tech: ["TypeScript" , "Redux" , "Vite" , "MongoDB" ],
         link: "https://github.com/sahilq312/e-commerce",
-        date: 2022
+        date: 2022,
+        details: {
+            note : "This project includes the following features and features that are available"
+        }
     },
     {
         id: 2,
