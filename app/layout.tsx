@@ -44,6 +44,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange>
             <Navbar/>
+            <div className="color"></div>
+            <div className="color2"></div>
             <div
             className={
               "px-6 md:px-6 pt-16 pb-24 md:pt-20 md:pb-44 max-w-[700px] mx-auto"

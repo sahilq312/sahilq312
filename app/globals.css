@@ -72,5 +72,24 @@
   }
   body {
     @apply bg-background text-foreground;
+    position: relative;
+    overflow-x:hidden ;
   }
+}
+
+.color {
+  position: fixed;
+  width: 700px;
+  height: 400px;
+  background-image: radial-gradient(closest-side, rgba(233,230,0,0.21), #0000);
+  left: 1400px;
+  top: -200px;
+}
+.color2 {
+  position: fixed;
+  width: 700px;
+  height: 300px;
+  background-image: radial-gradient(closest-side, rgba(233,230,0,0.21), #0000);
+  right: 1400px;
+  bottom: -120px;
 }
