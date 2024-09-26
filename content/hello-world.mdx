@@ -1,0 +1,22 @@
+---
+title: "LetterLoop"
+publishedAt: "2024-09-18"
+summary: "Plans for letterloop."
+---
+
+Welcome to my personal blog! I'm excited to share with you my journey in building LetterLoop, an email marketing tool that has led me down a fascinating path of scalable architecture and cutting-edge technologies.
+
+It all began with a simple need: to send emails efficiently. As I delved deeper into this challenge, I realized the importance of creating a system that could handle large volumes of emails without compromising performance. This realization sparked an intensive research phase, which ultimately led me to explore the world of queuing systems.
+
+After careful consideration, I decided to implement RabbitMQ, a robust message broker that perfectly suited my needs. Paired with Node.js, I was able to create a powerful and flexible queuing system that formed the backbone of LetterLoop's email dispatch mechanism.
+
+But my quest for scalability didn't stop there. To further enhance performance, I incorporated Redis as a caching layer and implemented Redis Cluster to efficiently store and manage the email queue. This addition significantly improved the system's ability to handle high loads and ensure rapid email delivery.
+
+While working on the email sending functionality, I initially used Nodemailer, a popular Node.js module. However, as I continued to push for greater scalability and reliability, I made the decision to transition to Amazon Simple Email Service (AWS SES). This enterprise-grade solution offered the robustness and scalability that LetterLoop required, allowing for seamless email delivery even at high volumes.
+
+To round out the tech stack, I chose Next.js for the frontend, leveraging its powerful features for building modern, responsive user interfaces. For data persistence, I opted for PostgreSQL, a battle-tested relational database that provides the perfect balance of performance and reliability.
+
+Join me as I dive deeper into each of these technologies and share the insights I've gained while building LetterLoop. Whether you're a fellow developer, an email marketing enthusiast, or simply curious about modern web architectures, I hope you'll find value in the experiences and lessons I'll be sharing on this blog.
+ 
+
+ If you still here make sure to check out my [LetterLoop](https://letterloop-navy.vercel.app) website. Also if you want to see the code you can find it on [Github](https://github.com/sahilq312/letterloop).
