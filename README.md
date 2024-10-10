@@ -6,8 +6,8 @@ Full Stack Developer
 
 * 🖥️  See my portfolio at [sahil](http://sahil-io.vercel.app)
 * ✉️  You can contact me at [quraishisahil04@outlook.com](mailto:quraishisahil04@outlook.com)
-* 🚀  I'm currently working on [dizo(Collaborative Whiteboard)](http://github.com/sahilq312/dizo)
-* 🧠  I'm learning AWS
+* 🚀  I'm currently working on [Sclability & React native)](http://github.com/sahilq312/)
+* 🧠  I'm learning Golang
 * 🤝  I'm open to collaborating on interesting project
 
 ### Skills
